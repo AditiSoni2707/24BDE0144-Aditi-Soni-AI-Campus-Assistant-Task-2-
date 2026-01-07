@@ -13,9 +13,23 @@ File: rag.py
 In level 3)
 Uses an agentic ai , the agent reasons step by step and safely stops if information is not available
 
-To Install Dependencies:
-,  pip install -r requirements.txt
 
+step 1)
+Create a Virtual Environment
+On Windows:
+python -m venv .venv
+.venv\Scripts\activate
+
+
+step 2)
+To Install Dependencies:
+ pip install -r requirements.txt
+
+step 3)
+Add API Key
+
+
+step 4)
 To Run the Levels:
 python app.py         # Level 1
 python rag.py          # Level 2
